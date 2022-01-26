@@ -9,7 +9,7 @@ cd /root/
 wget -O dslstats.tar.gz http://dslstats.me.uk/files/dslstats64L-6.5.9.tar.gz
 tar -zxvf dslstats.tar.gz
 rm dslstats.tar.gz
-mv dslstats64L-6.5 dslstats
+mv dslstats64L-6.5.9 dslstats
 chmod +x dslstats/dslstats
 
 echo "Europe/London" > /etc/timezone
